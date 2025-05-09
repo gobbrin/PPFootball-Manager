@@ -1,24 +1,76 @@
-# Compiled class file
-*.class
+### Java ###
+# Arquivo de classe compilado
+*.aula
 
-# Log file
-*.log
+# Arquivo de log
+*.registro
 
-# BlueJ files
+# Arquivos BlueJ
 *.ctxt
 
-# Mobile Tools for Java (J2ME)
+# Ferramentas móveis para Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
+# Arquivos de pacote #
 *.jar
-*.war
+*.guerra
 *.nar
-*.ear
+*.orelha
 *.zip
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# registros de falhas da máquina virtual, consulte http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+### Código do VisualStudio ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tarefas.json
+!.vscode/launch.json
+!.vscode/extensões.json
+!.vscode/*.trechos de código
+
+# Histórico local para o Visual Studio Code
+.história/
+
+# Extensões do Visual Studio Code criadas
+*.vsix
+
+### Patch do VisualStudioCode ###
+# Ignorar todo o histórico local de arquivos
+.história
+.ionídeoq
+
+### Gradle ###
+.gradle
+**/construir/
+!src/**/construir/
+
+# Ignorar configuração da GUI do Gradle
+gradle-app.configuração
+
+# Evite ignorar o arquivo jar do wrapper do Gradle (arquivos .jar geralmente são ignorados)
+!gradle-wrapper.jar
+
+# Evite ignorar propriedades do wrapper Gradle
+!gradle-wrapper.propriedades
+
+# Cache do projeto
+.gradletasknamecache
+
+# Arquivos gerados pelo plugin Eclipse Gradle
+# Núcleo Eclipse
+.projeto
+# Específico para JDT (Ferramentas de desenvolvimento Java Eclipse)
+.caminho de classe
+
+### Patch Gradle ###
+# Despejo de heap Java
+*.hprof
+
+
+### Custom Exceptions ###
+# Keep the apicontracts.jar in lib folder
+!lib/apicontracts.jar
