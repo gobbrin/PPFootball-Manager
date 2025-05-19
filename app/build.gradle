@@ -24,22 +24,23 @@ dependencies {
     // This dependency is used by the application.
     implementation libs.guava
 
-    // This dependency implements the jar from lib.
-    implementation files("${projectDir}/lib/apicontracts-1.0-SNAPSHOT.jar")  
+    // Implementation of the API contracts for the application.
+    implementation files("${projectDir}/libs/apicontracts-1.0-SNAPSHOT.jar")  // Absolute path
 
+    // Implementation of the JSON library for parsing and generating JSON.
     implementation 'com.googlecode.json-simple:json-simple:1.1.1'
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(17)
+        languageVersion = JavaLanguageVersion.of(21)
     }
 }
 
 application {
     // Define the main class for the application.
-    mainClass = 'ppfootballmanager.FootballManagerApp'
+    mainClass = 'ppfootballmanager.App'
 }
 
 tasks.named('test') {
