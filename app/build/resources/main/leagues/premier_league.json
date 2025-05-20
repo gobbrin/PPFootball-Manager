@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Arsenal FC",
+    "code": "ARS",
+    "playersFile": "arsenal.json",
+    "logo": "arsenal_logo.png"
+  },
+  {
+    "name": "Chelsea FC",
+    "code": "CHE",
+    "playersFile": "chelsea.json",
+    "logo": "chelsea_logo.png"
+  },
+  {
+    "name": "Liverpool FC",
+    "code": "LIV",
+    "playersFile": "liverpool.json",
+    "logo": "liverpool_logo.png"
+  },
+  {
+    "name": "Manchester City",
+    "code": "MCI",
+    "playersFile": "mancity.json",
+    "logo": "mancity_logo.png"
+  },
+  {
+    "name": "Manchester United",
+    "code": "MUN",
+    "playersFile": "manutd.json",
+    "logo": "manutd_logo.png"
+  },
+  {
+    "name": "Tottenham Hotspur",
+    "code": "TOT",
+    "playersFile": "tottenham.json",
+    "logo": "tottenham_logo.png"
+  }
+]
