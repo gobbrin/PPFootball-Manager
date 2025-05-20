@@ -1,22 +1,164 @@
 [
-    {
-      "name": "Sport Lisboa e Benfica",
-      "code": "SLB",
-      "country": "Portugal",
-      "founded": 1904,
-      "isNationalTeam": false,
-      "stadium": "Estádio da Luz",
-      "logo": "https://media.api-sports.io/football/teams/211.png"
-    },
-    {
-      "name": "Futebol Clube do Porto",
-      "code": "FCP",
-      "country": "Portugal",
-      "founded": 1893,
-      "isNationalTeam": false,
-      "stadium": "Estádio do Dragão",
-      "logo": "https://media.api-sports.io/football/teams/212.png"
-    }
+  {
+    "name": "Sport Lisboa e Benfica",
+    "code": "SLB",
+    "country": "Portugal",
+    "founded": 1904,
+    "isNationalTeam": false,
+    "stadium": "Estádio da Luz",
+    "logo": "https://media.api-sports.io/football/teams/211.png"
+  },
+  {
+    "name": "Futebol Clube do Porto",
+    "code": "FCP",
+    "country": "Portugal",
+    "founded": 1893,
+    "isNationalTeam": false,
+    "stadium": "Estádio do Dragão",
+    "logo": "https://media.api-sports.io/football/teams/212.png"
+  },
+  {
+    "name": "Sporting Clube de Portugal",
+    "code": "SCP",
+    "country": "Portugal",
+    "founded": 1906,
+    "isNationalTeam": false,
+    "stadium": "Estádio José Alvalade",
+    "logo": "https://media.api-sports.io/football/teams/228.png"
+  },
+  {
+    "name": "Sporting Clube de Braga",
+    "code": "SCB",
+    "country": "Portugal",
+    "founded": 1921,
+    "isNationalTeam": false,
+    "stadium": "Estádio Municipal de Braga",
+    "logo": "https://media.api-sports.io/football/teams/217.png"
+  },
+  {
+    "name": "Vitória Sport Clube",
+    "code": "VSC",
+    "country": "Portugal",
+    "founded": 1922,
+    "isNationalTeam": false,
+    "stadium": "Estádio D. Afonso Henriques",
+    "logo": "https://media.api-sports.io/football/teams/224.png"
+  },
+  {
+    "name": "Clube Desportivo Santa Clara",
+    "code": "CDSC",
+    "country": "Portugal",
+    "founded": 1927,
+    "isNationalTeam": false,
+    "stadium": "Estádio de São Miguel",
+    "logo": "https://media.api-sports.io/football/teams/227.png"
+  },
+  {
+    "name": "Casa Pia Atlético Clube",
+    "code": "CPAC",
+    "country": "Portugal",
+    "founded": 1920,
+    "isNationalTeam": false,
+    "stadium": "Estádio Municipal de Rio Maior",
+    "logo": "https://media.api-sports.io/football/teams/4716.png"
+  },
+  {
+    "name": "Futebol Clube de Famalicão",
+    "code": "FCF",
+    "country": "Portugal",
+    "founded": 1931,
+    "isNationalTeam": false,
+    "stadium": "Estádio Municipal de Famalicão",
+    "logo": "https://media.api-sports.io/football/teams/242.png"
+  },
+  {
+    "name": "Grupo Desportivo Estoril Praia",
+    "code": "GDEP",
+    "country": "Portugal",
+    "founded": 1939,
+    "isNationalTeam": false,
+    "stadium": "Estádio António Coimbra da Mota",
+    "logo": "https://media.api-sports.io/football/teams/230.png"
+  },
+  {
+    "name": "Rio Ave Futebol Clube",
+    "code": "RAFC",
+    "country": "Portugal",
+    "founded": 1939,
+    "isNationalTeam": false,
+    "stadium": "Estádio dos Arcos",
+    "logo": "https://media.api-sports.io/football/teams/226.png"
+  },
+  {
+    "name": "Moreirense Futebol Clube",
+    "code": "MFC",
+    "country": "Portugal",
+    "founded": 1938,
+    "isNationalTeam": false,
+    "stadium": "Estádio Comendador Joaquim de Almeida Freitas",
+    "logo": "https://media.api-sports.io/football/teams/215.png"
+  },
+  {
+    "name": "Clube Desportivo Nacional",
+    "code": "CDN",
+    "country": "Portugal",
+    "founded": 1910,
+    "isNationalTeam": false,
+    "stadium": "Estádio da Madeira",
+    "logo": "https://media.api-sports.io/football/teams/225.png"
+  },
+  {
+    "name": "Futebol Clube de Arouca",
+    "code": "FCA",
+    "country": "Portugal",
+    "founded": 1951,
+    "isNationalTeam": false,
+    "stadium": "Estádio Municipal de Arouca",
+    "logo": "https://media.api-sports.io/football/teams/240.png"
+  },
+  {
+    "name": "Gil Vicente Futebol Clube",
+    "code": "GVFC",
+    "country": "Portugal",
+    "founded": 1924,
+    "isNationalTeam": false,
+    "stadium": "Estádio Cidade de Barcelos",
+    "logo": "https://media.api-sports.io/football/teams/762.png"
+  },
+  {
+    "name": "Sporting Clube Farense",
+    "code": "SCF",
+    "country": "Portugal",
+    "founded": 1910,
+    "isNationalTeam": false,
+    "stadium": "Estádio de São Luís",
+    "logo": "https://media.api-sports.io/football/teams/231.png"
+  },
+  {
+    "name": "Clube de Futebol Estrela da Amadora",
+    "code": "CFEA",
+    "country": "Portugal",
+    "founded": 1932,
+    "isNationalTeam": false,
+    "stadium": "Estádio José Gomes",
+    "logo": "https://media.api-sports.io/football/teams/15130.png"
+  },
+  {
+    "name": "Boavista Futebol Clube",
+    "code": "BFC",
+    "country": "Portugal",
+    "founded": 1903,
+    "isNationalTeam": false,
+    "stadium": "Estádio do Bessa Século XXI",
+    "logo": "https://media.api-sports.io/football/teams/222.png"
+  },
+  {
+    "name": "AVS Futebol SAD",
+    "code": "AVS",
+    "country": "Portugal",
+    "founded": 2023,
+    "isNationalTeam": false,
+    "stadium": "Estádio do Clube Desportivo das Aves",
+    "logo": "https://media.api-sports.io/football/teams/21595.png"
+  }
 ]
-   
-  

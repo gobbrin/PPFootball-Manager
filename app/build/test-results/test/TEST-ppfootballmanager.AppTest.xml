@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ppfootballmanager.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-05-13T20:46:31.936Z" hostname="ROSEGARDEN" time="0.034">
+<testsuite name="ppfootballmanager.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-05-20T17:18:26.133Z" hostname="ROSEGARDEN" time="0.037">
   <properties/>
-  <testcase name="appHasAGreeting()" classname="ppfootballmanager.AppTest" time="0.034"/>
+  <testcase name="appHasAGreeting()" classname="ppfootballmanager.AppTest" time="0.037"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

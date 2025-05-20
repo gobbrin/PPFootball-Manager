@@ -29,7 +29,7 @@ public class PlayerImpl implements IPlayer {
     private int stamina;
 
     /**
-     * Constructor for PlayerImpl
+     * Constructor for PlayerImpl with all attributes
      * 
      * @param name          Player name
      * @param number        Player jersey number
@@ -62,6 +62,29 @@ public class PlayerImpl implements IPlayer {
         this.passing = validateStat(passing);
         this.speed = validateStat(speed);
         this.stamina = validateStat(stamina);
+    }
+    
+    /**
+     * Simple constructor for PlayerImpl with minimal attributes
+     * 
+     * @param name     Player name
+     * @param number   Player jersey number
+     * @param position Player position on the field
+     */
+    public PlayerImpl(String name, int number, IPlayerPosition position) {
+        this.name = name;
+        this.number = number;
+        this.position = position;
+        this.nationality = "Unknown";
+        this.birthDate = LocalDate.now().minusYears(25); // Default to 25 years old
+        this.height = 1.80f; // Default height in meters
+        this.weight = 75.0f; // Default weight in kg
+        this.preferredFoot = PreferredFoot.Right; // Default to right foot
+        this.photo = "default.jpg";
+        this.shooting = 50; // Default values for attributes
+        this.passing = 50;
+        this.speed = 50;
+        this.stamina = 50;
     }
 
     /**
@@ -170,9 +193,42 @@ public class PlayerImpl implements IPlayer {
         return weight;
     }
 
-    @Override
-    public void setPosition(IPlayerPosition newPosition) {
-        this.position = newPosition;
+    // Setter methods
+    
+    /**
+     * Sets the player's birth date
+     * 
+     * @param birthDate New birth date
+     */
+    public void setBirthDate(LocalDate birthDate) {
+        this.birthDate = birthDate;
+    }
+    
+    /**
+     * Sets the player's height
+     * 
+     * @param height New height in meters
+     */
+    public void setHeight(float height) {
+        this.height = height;
+    }
+    
+    /**
+     * Sets the player's name
+     * 
+     * @param name New name
+     */
+    public void setName(String name) {
+        this.name = name;
+    }
+    
+    /**
+     * Sets the player's nationality
+     * 
+     * @param nationality New nationality
+     */
+    public void setNationality(String nationality) {
+        this.nationality = nationality;
     }
     
     /**
@@ -182,6 +238,94 @@ public class PlayerImpl implements IPlayer {
      */
     public void setNumber(int number) {
         this.number = number;
+    }
+    
+    /**
+     * Sets the player's passing attribute
+     * 
+     * @param passing New passing value (0-100)
+     */
+    public void setPassing(int passing) {
+        this.passing = validateStat(passing);
+    }
+    
+    /**
+     * Sets the player's photo path
+     * 
+     * @param photo New photo path
+     */
+    public void setPhoto(String photo) {
+        this.photo = photo;
+    }
+
+    @Override
+    public void setPosition(IPlayerPosition newPosition) {
+        this.position = newPosition;
+    }
+    
+    /**
+     * Sets the player's preferred foot
+     * 
+     * @param preferredFoot New preferred foot
+     */
+    public void setPreferredFoot(PreferredFoot preferredFoot) {
+        this.preferredFoot = preferredFoot;
+    }
+    
+    /**
+     * Sets the player's shooting attribute
+     * 
+     * @param shooting New shooting value (0-100)
+     */
+    public void setShooting(int shooting) {
+        this.shooting = validateStat(shooting);
+    }
+    
+    /**
+     * Sets the player's speed attribute
+     * 
+     * @param speed New speed value (0-100)
+     */
+    public void setSpeed(int speed) {
+        this.speed = validateStat(speed);
+    }
+    
+    /**
+     * Sets the player's stamina attribute
+     * 
+     * @param stamina New stamina value (0-100)
+     */
+    public void setStamina(int stamina) {
+        this.stamina = validateStat(stamina);
+    }
+    
+    /**
+     * Sets the player's weight
+     * 
+     * @param weight New weight in kilograms
+     */
+    public void setWeight(float weight) {
+        this.weight = weight;
+    }
+    
+    /**
+     * Sets the player's overall rating directly by adjusting all stats
+     * 
+     * @param rating Overall rating to set (0-100)
+     */
+    public void setOverallRating(int rating) {
+        int validatedRating = validateStat(rating);
+        // Adjust all stats to be close to this rating
+        this.shooting = validatedRating + (int)Math.round(Math.random() * 10) - 5;
+        this.passing = validatedRating + (int)Math.round(Math.random() * 10) - 5;
+        this.speed = validatedRating + (int)Math.round(Math.random() * 10) - 5;
+        this.stamina = validatedRating + (int)Math.round(Math.random() * 10) - 5;
+        
+        // Validate all stats
+        this.shooting = validateStat(this.shooting);
+        this.passing = validateStat(this.passing);
+        this.speed = validateStat(this.speed);
+        this.stamina = validateStat(this.stamina);
     }
     
     /**
