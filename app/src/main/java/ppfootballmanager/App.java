@@ -1,8 +1,8 @@
 package ppfootballmanager;
 
+import ppfootballmanager.game.SeasonImpl;
 import ppfootballmanager.utils.JsonLoader;
 import ppfootballmanager.utils.Menu;
-import ppfootballmanager.models.SeasonImpl;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
@@ -45,6 +45,7 @@ public class App {
         System.out.println("\nTo play the full game, run the app directly using:");
         System.out.println("java -cp build/classes/java/main ppfootballmanager.App");
         System.out.println("java -cp \"app/build/classes/java/main;app/libs/apicontracts-1.0-SNAPSHOT.jar;app/build/resources/main\" ppfootballmanager.App");
+        System.out.println("java -cp \"app/build/classes/java/main;app/libs/apicontracts-1.0-SNAPSHOT.jar;app/libs/json-simple-1.1.1.jar;app/build/resources/main\" ppfootballmanager.App");
     }
     
     /**

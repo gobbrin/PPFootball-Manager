@@ -29,6 +29,7 @@ dependencies {
 
     // Implementation of the JSON library for parsing and generating JSON.
     implementation 'com.googlecode.json-simple:json-simple:1.1.1'
+     implementation files("${projectDir}/libs/json-simple-1.1.1")
 }
 
 // Apply a specific Java toolchain to ease working on different environments.

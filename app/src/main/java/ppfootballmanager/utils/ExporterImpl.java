@@ -16,10 +16,10 @@ import com.ppstudios.footballmanager.api.contracts.player.IPlayer;
 import com.ppstudios.footballmanager.api.contracts.team.IClub;
 import com.ppstudios.footballmanager.api.contracts.team.ITeam;
 
-import ppfootballmanager.models.SeasonImpl;
-import ppfootballmanager.models.StandingImpl;
-import ppfootballmanager.models.MatchImpl;
-import ppfootballmanager.models.LeagueImpl;
+import ppfootballmanager.game.LeagueImpl;
+import ppfootballmanager.game.MatchImpl;
+import ppfootballmanager.game.SeasonImpl;
+import ppfootballmanager.game.StandingImpl;
 
 /**
  * Implementation of IExporter interface for exporting data to JSON format

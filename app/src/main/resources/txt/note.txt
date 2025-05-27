@@ -1,0 +1,20 @@
+// Load a league with all its clubs and players
+LeagueImpl premierLeague = JsonLoader.loadLeague("Premier League", "premier_league.json");
+
+// Load a season with schedule generation
+SeasonImpl season = JsonLoader.loadSeason("premier_league_2023.json");
+
+// Set up a match simulator
+MatchSimulatorStrategy simulator = new MatchSimulatorStrategyImpl();
+season.setMatchSimulator(simulator);
+
+// Simulate a round or the entire season
+season.simulateRound();
+// or
+// season.simulateSeason();
+
+// Display standings
+IStanding[] standings = season.getLeagueStandings();
+for (IStanding standing : standings) {
+    System.out.println(standing);
+}
